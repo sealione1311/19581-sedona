@@ -1,34 +1,105 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
- }
-
-a {
-  text-decoration: none;
-}
-.main-navigation {
+  background-color: #ffffff;
+  }
+.site-navigation a {
   font-size: 14px;
   line-height: 26px;
+  text-decoration: none;
   color: #000000;
-  background-color: #ffffff;
+}
 
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  background-color: #ffffff;
+  list-style: none;
 }
-.site-navigation,
-.social,
-.features-list,
-.reasons-list {
-list-style: none;
+.advertising {
+  padding: 300px;
+  background-image: url("https://github.com/sealione1311/19581-sedona/blob/master/img/background%20photo.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
 }
-.site-navigation a,
+.advertising h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.reason{
+  background-color: #a3c7de;
+}
+.reason-text h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.reason-text  {
+  color: #ffffff;
+}
+.features {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
+}
+.features-list {
+  list-style: none;
+}
+.features-list h3 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+.reasons{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #bcbcbc;
+}
+.reasons-list{
+  list-style: none;
+}
+.reasons-list h3{
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+.search h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.search{
+  text-align: center;
+}
+.social {
+  text-align: center;
+  list-style: none;
+}
+.social a {
+  text-decoration: none;
+}
 .main-footer a {
   color: #000000;
+  text-decoration: none;
 }
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -38,5 +109,71 @@ list-style: none;
 }
 .site-navigation a:active,
 .main-footer a:active{
+  color: #bcbcbc;
+}
+.search h3{
+  font-size: 21px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #766357;
+}
+.search-item input,
+.search-item-adult input {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  border: 0px solid #f2f2f2;
+  background-color: #f2f2f2;
+
+}
+.search-item input:focus,
+.search-item-adult input:focus {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  border: 0px solid #ebebeb;
+  background-color: #ebebeb;
+
+}
+.button-submit {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+.button-submit:hover,
+.button-submit:focus{
+
+  background-color: #669ec0;
+}
+.button-submit:active{
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+.infrastructure{
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+}
+.category{
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+}
+.catalog-list{
+  list-style: none;
+}
+.catalog a{
+  color: #000000;
+  text-decoration: none;
+}
+.catalog a:hover,
+.catalog a:focus {
+  color: #a3c7de;
+}
+.catalog a:active{
   color: #bcbcbc;
 }
