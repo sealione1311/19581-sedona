@@ -24,7 +24,7 @@ body {
 }
 .advertising {
   padding: 300px;
-  background-image: url("https://github.com/sealione1311/19581-sedona/blob/master/img/background%20photo.jpg?raw=true");
+  background-image: url("https://github.com/sealione1311/19581-sedona/blob/master/img/background-photo.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 14px;
@@ -35,6 +35,16 @@ body {
 .advertising h3 {
   font-size: 21px;
   line-height: 21px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .reason{
   background-color: #a3c7de;
@@ -70,7 +80,7 @@ body {
   line-height: 21px;
   font-weight: 700;
   color: #000000;
-  background-color: #bcbcbc;
+  background-color: #eeeeee;
 }
 .reasons-list{
   list-style: none;
@@ -111,12 +121,24 @@ body {
 .main-footer a:active{
   color: #bcbcbc;
 }
-.search h3{
-  font-size: 21px;
-  line-height: 21px;
+
+.button-search {
+  font: inherit;
+  text-align: center;
   color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
   background-color: #766357;
-}
+  border: none;
+  }
+.button-search:hover,
+.button-search:focus{
+  background-color: #604e43;
+  }
+.button-search:active{
+  color: #857871;
+  background-color: #503e33;
+  }
 .search-item input,
 .search-item-adult input {
   font: inherit;
@@ -153,6 +175,9 @@ body {
   color: #88b6d1;
   background-color: #5496bd;
 }
+.navigation-unactive {
+  color: #766357;
+}
 .infrastructure{
   font-size: 14px;
   line-height: 21px;
@@ -163,17 +188,60 @@ body {
   line-height: 21px;
   list-style: none;
 }
-.catalog-list{
+
+.catalog-list {
   list-style: none;
 }
-.catalog a{
+ .catalog h3 a{
   color: #000000;
   text-decoration: none;
+  }
+
+.catalog h3 a:hover,
+.catalog h3 a:focus {
+  color: #88b6d1;
 }
-.catalog a:hover,
-.catalog a:focus {
-  color: #a3c7de;
-}
-.catalog a:active{
+.catalog h3 a:active{
   color: #bcbcbc;
+}
+.button-more,
+ .button-book{
+  text-decoration: none;
+}
+.button-more {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  border: none;
+}
+.button-more a:hover,
+.button-more a:focus{
+
+  background-color: #669ec0;
+}
+.button-more a:active{
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.button-book {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #766357;
+  border: none;
+}
+.button-book:hover,
+.button-book:focus{
+
+  background-color: #604e43;
+}
+.button-book:active{
+  color: #857871;
+  background-color: #503e33;
 }
