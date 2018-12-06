@@ -22,11 +22,14 @@ body {
   background-color: #ffffff;
   list-style: none;
 }
-.advertising {
-  padding: 300px;
-  background-image: url("https://github.com/sealione1311/19581-sedona/blob/master/img/background-photo.jpg?raw=true");
+.main-img{
+  background-image:url("../img/intro-welcome.svg"), url("../img/background-photo.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top center;
+  background-size:600px, cover;
+  padding: 300px;
+  }
+.advertising {
   font-size: 14px;
   line-height: 21px;
   font-weight: 700;
