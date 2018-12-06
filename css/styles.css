@@ -23,11 +23,9 @@ body {
   list-style: none;
 }
 .main-img{
-  background-image:url("../img/intro-welcome.svg"), url("../img/background-photo.jpg");
+  background-image:url("../img/background-photo.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size:600px, cover;
-  padding: 300px;
+
   }
 .advertising {
   font-size: 14px;
