@@ -25,8 +25,7 @@ body {
 .main-img{
   background-image:url("../img/background-photo.jpg");
   background-repeat: no-repeat;
-
-  }
+}
 .advertising {
   font-size: 14px;
   line-height: 21px;
