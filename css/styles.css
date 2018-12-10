@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0;
   padding: 0;
@@ -272,18 +275,15 @@ body {
   background-color: #503e33;
 }
 .navigation{
- margin: 0;
- padding: 0;
- width: 1200px;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-}
-.main-img{
   margin: 0;
   padding: 0;
-  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-img{
   height: 584px;
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -291,87 +291,64 @@ body {
 .advertising{
   margin: 0;
   padding: 0;
-  width: 1200px;
-  height:216px;
 }
 .reason{
   margin: 0;
   padding: 0;
-  width: 1200px;
-  height:256px;
   display: flex;
-  flex-direction:row;
   align-items: center;
   justify-content: center;
 }
 .reason.right {
-  width: 1200px;
-  height:256px;
   display: flex;
   flex-direction:row-reverse;
   align-items: center;
   justify-content: center;
 }
 .features-list{
-  width: 1200px;
-  height:256px;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction:row;
   justify-content: space-between;
   align-items: center;
 }
 .reasons{
   width: 1200px;
-  }
+}
 .reasons-list{
-  height:256px;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction:row;
   justify-content: space-between;
   align-items: center;
 }
 .search{
-  width: 1200px;
-  height:291px;
   margin: 0;
   padding: 0;
 }
 .filter-hotel{
   margin: 0;
   padding: 0;
-  width: 1200px;
-  height:217px;
+
 }
 .catalog{
-
-  width: 1200px;
-  height: 453px;
   margin: 0;
   padding: 0;
 }
 .catalog-list{
-  width: 1200px;
-  height: 453px;
   margin: 0;
   padding: 0;
 }
 .catalog-item{
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   border: 1px solid black;
-  margin: 0;
-  padding: 0;
-  width: 1200px;
-  height:150px;
 }
-
 .rating-stars{
-background:url("../img/star.svg") repeat-x;
+  background:url("../img/star.svg") repeat-x;
 }
 .hight{
   width: 72px;
@@ -386,12 +363,12 @@ background:url("../img/star.svg") repeat-x;
   height:17px;
 }
 .main-footer{
-  width: 1200px;
-  height:120px;
   margin-top: 50px;
   padding: 0;
-display: flex;
-flex-direction:row;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper{width: 1200px;
+    margin: auto;
 }
