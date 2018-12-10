@@ -66,7 +66,6 @@ body {
 }
 .reason-text  {
   width: 400px;
-  height: 256px;
   text-align: center;
   color: #ffffff;
 }
@@ -150,9 +149,8 @@ body {
   text-transform: uppercase;
   background-color: #766357;
   border: none;
-  width: 568px;
-  height: 86px;
-  }
+
+}
 .button-search:hover,
 .button-search:focus{
   background-color: #604e43;
@@ -189,8 +187,6 @@ body {
   text-transform: uppercase;
   background-color: #81b3d2;
   border: none;
-  width: 451px;
-  height: 58px;
 }
 .button-submit:hover,
 .button-submit:focus{
@@ -312,8 +308,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.reasons{
-  width: 1200px;
+.feature-item{
+  width: 400px;
+}
+.reasons-item{
+  width: 400px;
 }
 .reasons-list{
   margin: 0;
