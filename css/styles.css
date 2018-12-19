@@ -10,9 +10,9 @@ body {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  background-color: #ffffff;
-  }
-.header {
+  background-color: #f2f2f2;
+}
+header {
   position: relative;
 }
 .site-navigation a {
@@ -64,9 +64,11 @@ body {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 680px;
-  top:0px;
+  right: 530px;
+  top: 0px;
   z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .main-img {
   margin: 0;
@@ -84,6 +86,8 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   bottom: -3px;
+  left: 0;
+  right: 0;
 }
 .intro-img {
   padding-top:76px;
@@ -98,21 +102,24 @@ body {
   line-height: 26px;
   font-weight: 400;
   text-align: center;
+  background-color: #ffffff;
 }
 .advertising h3 {
+  margin: 0;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
-  padding-top:37px;
+  padding-top:50px;
   padding-left: 380px;
   padding-right: 380px;
 }
 .advertising p {
+  margin: 0;
   padding-top:10px;
   padding-left: 300px;
   padding-right: 300px;
-  margin-bottom: 50px;
+
 }
 .visually-hidden {
   position: absolute;
@@ -137,10 +144,11 @@ body {
   color: #ffffff;
   padding-left: 100px;
   padding-right: 100px;
-  margin-top: 45px;
-  margin-bottom: 10px;
+
 }
 .reason-text {
+  margin: 0;
+  padding: 0;
   width: 400px;
   text-align: center;
   color: #ffffff;
@@ -148,13 +156,15 @@ body {
   flex-direction: column;
 }
 .reason.right {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row-reverse;
 }
 .reason-text p {
   padding-left: 55px;
   padding-right: 55px;
-  margin-bottom: 10px;
+
   font-weight: 400;
 }
 .left h3 {
@@ -174,6 +184,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   color: #000000;
+  background-color: #ffffff
 }
 .features-list {
   margin: 0;
@@ -260,7 +271,7 @@ body {
 }
 .reasons-item {
   width: 400px;
-  margin-top: 25px;
+
 }
 .reasons-item h3 {
   padding: 0 120px;
@@ -281,25 +292,24 @@ body {
   margin-top: 50px;
 }
 .search {
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 .search-info {
+  background-color: #ffffff;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
   padding: 10px 401px;
-  margin-bottom:140px;
-}
-.search-form {
-  width: 568px;
-  margin:0 auto
+  margin-bottom:43px;
 }
 .button-search {
+  margin:0 auto;
   display: block;
-  width: 100%;
+  width: 568px;
   padding: 30px 0px;
   font: inherit;
   font-size: 21px;
@@ -319,6 +329,17 @@ body {
   color: #857871;
   background-color: #503e33;
 }
+
+.window-search {
+  background-color: #ffffff;
+  width: 568px;
+  margin:0 auto;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+  padding: 55px 0;
+}
+.search-item{
+  padding-left:55px;
+}
 .search-item input,
 .search-item-adult input {
   font: inherit;
@@ -326,6 +347,8 @@ body {
   text-transform: uppercase;
   border: 0px solid #f2f2f2;
   background-color: #f2f2f2;
+  box-sizing: border-box;
+  width: 346px;
 }
 .search-item input:focus,
 .search-item-adult input:focus {
@@ -335,7 +358,14 @@ body {
   border: 0px solid #ebebeb;
   background-color: #ebebeb;
 }
+.search-item.in input{
+ margin-left:  21px;
+}
+.search-item.out input{
+ margin-left: 17px;
+}
 .button-submit {
+  padding: 0 55px;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -382,7 +412,7 @@ body {
   color: #000000;
   text-decoration: none;
   text-align: center;
-  }
+}
 
 .catalog h3 a:hover,
 .catalog h3 a:focus {
@@ -433,10 +463,17 @@ body {
 .filter-hotel {
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+  background:url("../img/filter-background.jpg");
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 217px;
+  background-position: 0 -305px;
 }
 .catalog {
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
 }
 .catalog-list {
   margin: 0;
@@ -447,8 +484,63 @@ body {
   padding: 0;
   display: flex;
 }
+.catalog-list li:last-child {
+  margin-bottom: 120px;
+}
+.catalog-item img {
+  margin-top:  30px;
+  margin-left: 72px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.catalog-item h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+  margin-top: 25px;
+}
+.catalog-item-category-price {
+  margin: 0;
+  padding: 0;
+}
+.catalog-category p:first-child {
+  margin-bottom: 18px;
+}
+.catalog-category:first-child {
+  margin-right: 39px;
+}
+.catalog-category.motel {
+  margin-right: 64px;
+}
+.catalog-category.apart {
+  margin-right: 21px;
+}
+.button-more {
+  margin-right: 6px;
+  padding: 8px 17px 7px;
+}
+.button-book {
+  padding: 8px 16px;
+}
 .rating-stars {
   background:url("../img/star.svg") repeat-x;
+}
+.rating-text {
+  margin-top: 52px;
+  font-size: 14px;
+  line-height: 21px;
+  font: 400;
+  padding: 5px 13px 6px 16px;
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+.raiting {
+  margin-right: 73px;
+  margin-left: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .hight {
   width: 72px;
@@ -463,19 +555,34 @@ body {
   height:17px;
 }
 .main-footer {
-  margin-top: 50px;
+  background-color: #ffffff;
+  margin-top: 0px;
   padding: 0;
+  margin-top: -120px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  opacity: 0.9;
 }
 .main-footer p {
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
 }
+.hashtag{
+  padding-left: 136px;
+}
+.map{
+  width: 1200px;
+  height: 594px;
+  background:url("../img/map.jpg");
+  background-repeat: no-repeat;
+}
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 }
 .social-button {
   width: 46px;
@@ -492,8 +599,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  padding: 36px 225px;
+  margin-left: 20px;
 }
 .social a {
   text-decoration: none;
@@ -522,7 +631,8 @@ body {
 .button-academy {
   width: 115px;
   height: 41px;
-  margin-left: 5px;
+  margin-right: 101px;
+  margin-left: 8px;
 }
 .button-academy:hover path,
 .button-academy:focus path {
