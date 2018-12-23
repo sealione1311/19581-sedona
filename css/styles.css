@@ -289,7 +289,8 @@ header {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
-  margin-top: 50px;
+  padding-top: 57px;
+  background-color: #ffffff;
 }
 .search {
   background-color: #ffffff;
@@ -308,7 +309,6 @@ header {
 }
 .button-search {
   margin:0 auto;
-  display: block;
   width: 568px;
   padding: 30px 0px;
   font: inherit;
@@ -320,6 +320,7 @@ header {
   text-transform: uppercase;
   background-color: #766357;
   border: none;
+  position: relative;
 }
 .button-search:hover,
 .button-search:focus {
@@ -329,15 +330,20 @@ header {
   color: #857871;
   background-color: #503e33;
 }
-
 .window-search {
   background-color: #ffffff;
   width: 568px;
   margin:0 auto;
   box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
-  padding: 55px 0;
+  padding: 41px 0 55px;
+  position: absolute;
+  top: 2072px;
+  left: 476px;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.search-item{
+.search-item,
+.search-item-adult{
   padding-left:55px;
 }
 .search-item input,
@@ -348,24 +354,55 @@ header {
   border: 0px solid #f2f2f2;
   background-color: #f2f2f2;
   box-sizing: border-box;
+}
+.search-item input {
   width: 346px;
+  padding: 14px 230px 13px 13px;
 }
 .search-item input:focus,
-.search-item-adult input:focus {
+.search-item input:focus {
   font: inherit;
   color: #000000;
   text-transform: uppercase;
   border: 0px solid #ebebeb;
   background-color: #ebebeb;
 }
-.search-item.in input{
+.search-item.in input {
  margin-left:  21px;
 }
-.search-item.out input{
+.search-item.out input {
  margin-left: 17px;
 }
+.button {
+  width: 38px;
+  border:none ;
+  background-color: #f2f2f2;
+  padding: 11px 13px;
+  margin: 0;
+  font: 700;
+  font-size: 21px;
+  color:#a9a9a9;
+}
+.search-item-adult input {
+  width: 38px;
+  padding: 12px 13px 13px ;
+  margin-left:0;
+}
+.search-item-adult {
+  display: flex;
+  align-items: center;
+}
+.button.minus {
+  margin-left: 41px;
+}
+.button.plus {
+  margin-right: 53px;
+}
+.button.child-minus {
+  margin-left: 27px;
+}
 .button-submit {
-  padding: 0 55px;
+  width: 458px;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -375,6 +412,8 @@ header {
   text-transform: uppercase;
   background-color: #81b3d2;
   border: none;
+  padding: 17px 197px 22px 196px;
+  margin: 41px 55px 0;
 }
 .button-submit:hover,
 .button-submit:focus {
@@ -413,7 +452,6 @@ header {
   text-decoration: none;
   text-align: center;
 }
-
 .catalog h3 a:hover,
 .catalog h3 a:focus {
   color: #88b6d1;
@@ -453,7 +491,6 @@ header {
 }
 .button-book:hover,
 .button-book:focus {
-
   background-color: #604e43;
 }
 .button-book:active {
