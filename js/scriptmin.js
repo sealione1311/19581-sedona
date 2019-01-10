@@ -1,0 +1,1 @@
+var button=document.querySelector(".link-button-search"),wnd=document.querySelector(".window-search");button.addEventListener("click",function(e){e.preventDefault(),wnd.classList.toggle("window-open")});
