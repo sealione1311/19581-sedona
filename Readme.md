@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Татьяна  Мирзова](https://up.htmlacademy.ru/htmlcss/23/user/19581).
+* Студент: [Татьяна Мирзова](https://up.htmlacademy.ru/htmlcss/23/user/19581).
 * Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
